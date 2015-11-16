@@ -20,7 +20,7 @@ include"conn.php";
 if(isset($_POST['submit'])){
   $name=$_POST['name'];
   $year=$_POST['year'];
- 
+
 define("__ROOT__", dirname(dirname(__FILE__)));
 require_once ("../jpgraph.php");
 require_once ("../jpgraph_line.php");
