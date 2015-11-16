@@ -4,7 +4,7 @@ print <<<HERE
 <h2> REQUIREMENT </h2>
 <form id="my form" method="post">
 <div>
-<label for="year">Year:</label>
+<label for="year">Year:  </label>
 <input type="text" name="year" required="required">
 </div>
 <div>
