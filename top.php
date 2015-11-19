@@ -31,7 +31,6 @@ if(isset($_POST['submit']))
 	$result=@mysql_query($sql) or die(@mysql_error());
 	$numrow =@mysql_num_rows($result);
 	echo " TOP: ".$numrow." ";
-	
 	$id=1;
 	
 	while($res=mysql_fetch_array($result))
