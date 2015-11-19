@@ -26,7 +26,6 @@ require_once ("../jpgraph.php");
 require_once ("../jpgraph_line.php");
 require_once ("../jpgraph_error.php");
  
- 
 $x_axis = array();
 $y_axis = array();
 $i = 0;
