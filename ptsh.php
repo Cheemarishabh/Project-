@@ -1,5 +1,6 @@
 <?php 
 include"cnt.php";
+
 if(isset($_POST['search']))
 {
 $search=$_POST['search'];
