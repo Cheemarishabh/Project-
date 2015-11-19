@@ -20,6 +20,7 @@ print <<<HERE
 </div>
 </form>
 HERE;
+
 include("cnt.php");
 if(isset($_POST['submit']))
 {
