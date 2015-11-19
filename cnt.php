@@ -5,6 +5,7 @@ $host = 'localhost';
 $user = 'root';
 $pwd = ''; 
 
+
 $database = 'miniproject';
 $table ='baby';
 $conn = @mysql_connect($host, $user, $pwd) or
